@@ -10,7 +10,7 @@ class Client{
 		$this->client = new AipSpeech($appid, $apikey, $secretkey);
 	}
 	
-	public function getResult($content,$setting = [],$lang = 'zh',){
+	public function getResult($content,$setting = [],$lang = 'zh'){
 		
 		$result = $this->client->synthesis($content, $lang, 1,$setting);
 
