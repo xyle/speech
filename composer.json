@@ -1,7 +1,7 @@
 {
 	"name": "xyle/speech",
 	"description": "百度语音",
-	"type": "project",
+	"type": "library",
 	"authors": [{
 		"name": "xyle",
 		"email": "2262078363@qq.com"
