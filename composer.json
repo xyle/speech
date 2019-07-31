@@ -1,0 +1,17 @@
+{
+	"name": "xyle/speech",
+	"description": "百度语音",
+	"type": "project",
+	"authors": [{
+		"name": "xyle",
+		"email": "2262078363@qq.com"
+	}],
+	"require": {
+		"php": ">=5.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Xyle\\Speech\\": "src/"
+		}
+	}
+}
